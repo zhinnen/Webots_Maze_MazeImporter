@@ -1,0 +1,67 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.9982872416188648 0.05182302319464979 0.027146960934234136 5.125821083184151
+  position -0.4391735310847773 16.96560475379523 8.731450573023924
+}
+DEF lab_supervisor Robot {
+  controller "dummy"
+  supervisor TRUE
+}
+TexturedBackground {
+  texture "factory"
+}
+TexturedBackgroundLight {
+}
+DEF lab_walls Group {
+  children [
+    Floor {
+      rotation 0 1 0 1.57079632679
+      size 7.4 3.4
+      tileSize 1 1
+      appearance ChequeredParquetry {
+        textureTransform TextureTransform {
+          translation -0.2 -0.2
+        }
+      }
+    }
+    Wall {
+      translation 0 0 -3.6
+      rotation 0 1 1.4697803324714036e-06 -5.307179586466759e-06
+      name "lab wall front"
+      size 3 3 0.2
+    }
+    Wall {
+      translation 0 0 3.6
+      rotation 0 1 0 3.14159
+      name "lab wall back"
+      size 3.4 3 0.2
+    }
+    Wall {
+      translation 1.6 0 0
+      rotation 0 1 0 1.57079632679
+      name "lab wall cupboard"
+      size 7.4 3 0.2
+    }
+    Wall {
+      translation -1.6 0 0
+      rotation 0 1 0 1.57079632679
+      name "lab wall cmac pc"
+      size 7.4 3 0.2
+    }
+  ]
+}
+DEF Lab_Carpet Transform {
+  scale 2.66667 1 1.625
+  children [
+    Carpet {
+      rotation 0 1 0 1.57079632679
+      color 0.09999999999999999 0.44999999999999996 0.09999999999999999
+    }
+  ]
+  rotationStep 0.261799
+}
+DEF maze_walls Group {
+}
