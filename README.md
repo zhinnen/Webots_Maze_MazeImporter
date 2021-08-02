@@ -10,7 +10,7 @@ INSTALLATION AND BUILD INSTRUCTIONS AND RUN INSTRUCTIONS
         ◦ Dual Boot Installation - https://www.youtube.com/watch?v=-iSAyiicyQY
         ◦ Ubuntu Virtual Machine - https://www.youtube.com/watch?v=x5MhydijWmc
 
-    2 Install Webots 20.04 – Make sure the installation is not Snap.
+2 Install Webots 20.04 – Make sure the installation is not Snap.
 https://cyberbotics.com/ 
 Make sure that you install the webots Debian package when using Ubuntu
 Click on the Webots download at the bottom left part of the page and select software installer.
